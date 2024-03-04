@@ -1,0 +1,45 @@
+body {
+  border: 5px solid black;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+.Add-to-cart {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none black;
+}
+
+a {
+  color: black;
+}
+
+.Converse {
+  text-align: center;
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+.list {
+  list-style: square;
+}
+
+.chucks {
+  font-weight: bold;
+}
+.free {
+  color: #7c7c7c;
+  text-transform: uppercase;
+}
