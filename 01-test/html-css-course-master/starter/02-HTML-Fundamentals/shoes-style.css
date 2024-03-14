@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   line-height: 1.5;
   font-family: sans-serif;
@@ -5,7 +11,7 @@ body {
 
 .container {
   border: 5px solid black;
-  width: 800px;
+  width: 1200px;
   margin: 40px auto;
   position: relative;
 }
@@ -54,12 +60,49 @@ h4 {
   font-size: 22px;
 }
 
+.product-info {
+  /* (1200 - 300 - 80) */
+  width: 390px;
+  float: left;
+  margin-right: 40px;
+  padding-top: 30px;
+}
+
+.img-chucks {
+  float: left;
+  margin-right: 40px;
+}
+
+.price {
+  float: left;
+}
+
+.free-shipping {
+  float: right;
+}
+
+.shipping {
+  float: right;
+}
+
+.Product-list {
+  float: left;
+  width: 410px;
+  padding-top: 30px;
+}
+
 .list {
   list-style: square;
+  margin-top: 30px;
+}
+
+.list:last-child {
+  margin-bottom: 30px;
 }
 
 .chucks {
   font-weight: bold;
+  clear: both;
 }
 .free {
   color: #7c7c7c;
@@ -93,4 +136,16 @@ h4 {
 
 .color-brown {
   background-color: brown;
+}
+
+footer {
+  display: inline-block;
+  position: absolute;
+  bottom: -30px;
+  right: -36px;
+  color: black;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
 }
