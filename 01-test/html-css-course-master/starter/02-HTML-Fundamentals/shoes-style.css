@@ -10,8 +10,13 @@ body {
 }
 
 .container {
+  display: flex;
+  gap: 40px;
+}
+
+.containers {
   border: 5px solid black;
-  width: 1200px;
+  width: 1000px;
   margin: 40px auto;
   position: relative;
 }
@@ -47,6 +52,11 @@ a:hover {
   text-decoration: none black;
 }
 
+.more-info {
+  margin-bottom: 60px;
+  display: block;
+}
+
 a {
   color: black;
 }
@@ -54,23 +64,36 @@ a {
 .Converse {
   text-align: center;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
 h4 {
   font-size: 22px;
 }
 
-.product-info {
-  /* (1200 - 300 - 80) */
-  width: 390px;
-  float: left;
-  margin-right: 40px;
-  padding-top: 30px;
+.img-chucks {
+  display: flex;
+  align-items: center;
 }
 
-.img-chucks {
-  float: left;
-  margin-right: 40px;
+.price {
+  display: flex;
+  justify-content: center;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* floats */
+
+.product-info {
+  /*(1200 - 300 - 80)*/
+  flex: 1;
+  margin-top: 20px;
 }
 
 .price {
@@ -86,10 +109,11 @@ h4 {
 }
 
 .Product-list {
-  float: left;
-  width: 410px;
-  padding-top: 30px;
+  margin-top: 20px;
+  flex: 1;
 }
+
+/* floats end */
 
 .list {
   list-style: square;
@@ -102,20 +126,22 @@ h4 {
 
 .chucks {
   font-weight: bold;
-  clear: both;
+  margin-bottom: 30px;
 }
 .free {
   color: #7c7c7c;
   text-transform: uppercase;
 }
 
+.product-colors {
+  display: flex;
+  gap: 10px;
+}
+
 .color {
   background-color: #000;
   height: 22px;
   width: 22px;
-  display: inline-block;
-  margin-right: 10px;
-  margin-top: 30px;
 }
 
 .color-blue {
