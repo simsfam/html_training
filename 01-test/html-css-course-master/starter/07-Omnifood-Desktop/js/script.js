@@ -48,7 +48,7 @@ allLinks.forEach(function (link) {
     // scroll to other links
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelectorAll(href);
-      sectionEl.scrollHeight({ behavior: "smooth" });
+      sectionEl.scrollInToView({ behavior: "smooth" });
     }
 
     // Close mobile navigation
